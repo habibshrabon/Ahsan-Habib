@@ -2,10 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div
-      className="py-5 text-center background text-white"
-      style={{ background: "rgb(82, 102, 139)" }}
-    >
+    <div className="py-5 text-center background text-white">
       <p className="pt-3">
         Designed & Built by{" "}
         <a
