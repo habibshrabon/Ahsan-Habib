@@ -1,3 +1,34 @@
 body {
   background-color: rgb(25, 25, 51);
 }
+* {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+.btn-brand {
+  background-color: #2053c9;
+  border: 2px solid #2053c9;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 7px 15px;
+  border-radius: 7px;
+}
+.btn-brand:hover {
+  background-color: #0a192f;
+  border: 2px solid #2053c9;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

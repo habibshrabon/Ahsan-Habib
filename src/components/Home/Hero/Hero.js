@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import image from "../../../images/profile1.png";
+import TypeWriterEffect from "react-typewriter-effect";
 import "./Hero.css";
 
 const Hero = () => {
@@ -12,7 +13,7 @@ const Hero = () => {
             <div className="text-white">
               <p>Hello, I'm</p>
               <h1>Ahsan Habib</h1>
-              {/* <TypeWriterEffect
+              <TypeWriterEffect
                 textStyle={{
                   fontFamily: "Roboto",
                   color: "#fff",
@@ -30,7 +31,7 @@ const Hero = () => {
                 loop={true}
                 multiTextDelay={1000}
                 typeSpeed={150}
-              /> */}
+              />
 
               <p className="my-3 text-justify">
                 A self-motivated and enthusiastic web developer with a deep

@@ -9,7 +9,7 @@ const Header = () => {
     <Navbar className="background" collapseOnSelect expand="lg ">
       <Container>
         <Navbar.Brand as={Link} className="fw-bold fs-2 text-white" to="/">
-          AHSAN HABIB
+          AH
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">

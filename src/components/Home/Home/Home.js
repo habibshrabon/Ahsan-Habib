@@ -1,13 +1,13 @@
 import React from "react";
 import Contact from "../../Contact/Contact";
-import Project from "../../Project/Project";
 import Hero from "../Hero/Hero";
+import Main from "../Main/Main";
 
 const Home = () => {
   return (
     <div>
       <Hero />
-      <Project />
+      <Main />
       <Contact />
     </div>
   );

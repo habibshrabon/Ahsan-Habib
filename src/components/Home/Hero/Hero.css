@@ -32,7 +32,7 @@
 
 @media only screen and (max-width: 560px) {
   .hero-image img {
-    max-width: 100%;
+    /* max-width: 100%; */
     padding: 0 15px;
   }
 }
