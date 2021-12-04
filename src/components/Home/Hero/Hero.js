@@ -11,8 +11,10 @@ const Hero = () => {
         <div className="pb-5 row">
           <div className="col-sm-6 d-flex align-items-center">
             <div className="text-white">
-              <p>Hello, I'm</p>
-              <h1>Ahsan Habib</h1>
+              <h3>Hello</h3>
+              <h1>
+                I'M <span style={{ color: "#ff4a57" }}>AHSAN HABIB</span>
+              </h1>
               <TypeWriterEffect
                 textStyle={{
                   fontFamily: "Roboto",
@@ -27,6 +29,7 @@ const Hero = () => {
                   "Web Developer",
                   "Front end developer",
                   "Full-stack Web Developer",
+                  "MERN Stack Web Developer",
                 ]}
                 loop={true}
                 multiTextDelay={1000}
@@ -40,11 +43,13 @@ const Hero = () => {
                 Software/ IT agencies of Bangladesh and grow rapidly with
                 increasing responsibilities.
               </p>
-              <button as={Link} to="/about" className="mr-3 btn-brand">
+              <button as={Link} to="/about" className="me-3 btn-brand">
                 About Me
               </button>
               <button className="mt-3 button-style btn-brand">
-                <a href="#">Download Resume</a>
+                <a href="https://drive.google.com/uc?export=download&id=1cQEouWGF49vLawzIn0qkeI1RvM2jQ7Z0">
+                  Download Resume
+                </a>
               </button>
             </div>
           </div>

@@ -1,3 +1,4 @@
+import ParticlesBg from "particles-bg";
 import React from "react";
 import Contact from "../../Contact/Contact";
 import Hero from "../Hero/Hero";
@@ -9,6 +10,7 @@ const Home = () => {
       <Hero />
       <Main />
       <Contact />
+      <ParticlesBg type="cobweb" bg={true} />
     </div>
   );
 };

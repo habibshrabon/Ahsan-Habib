@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import emailjs from "emailjs-com";
 import {
   faEnvelope,
   faMapMarkerAlt,
@@ -10,6 +11,22 @@ import "./Contact.css";
 
 const Contact = () => {
   const form = useRef();
+
+  function emailSend(e) {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_6eeefm2",
+        "template_nnvk3xb",
+        e.target,
+        "user_sce2SIOPGHDjhtoK0stGX"
+      )
+      .then((res) => {
+        console.log(res);
+      })
+      .catch((err) => console.log(err));
+  }
   return (
     <section>
       <Container
@@ -23,9 +40,9 @@ const Contact = () => {
             to say hi, feel free to drop a message. I'll try my best to get{" "}
           </p>
         </div>
-        <Row className="rounded ">
+        <Row className="rounded">
           <Col md={6} lg={7}>
-            <form ref={form} onSubmit="">
+            <form ref={form} onSubmit={emailSend}>
               <input
                 placeholder="Your Name Here"
                 type="text"
@@ -36,7 +53,7 @@ const Contact = () => {
               <input
                 className="form-control"
                 type="email"
-                name="usr_email"
+                name="user_email"
                 placeholder="Your Email Here"
               />
               <br />

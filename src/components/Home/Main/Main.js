@@ -70,7 +70,7 @@ const Main = () => {
                   book a service for traveling by pay the fees. The website
                   contains a separate dashboard for the admin and user
                 </p>
-                <div className="px-3 pb-2  technology">
+                <div className="px-3 pb-2 technology">
                   <span>React.js</span>
                   <span>Node.js</span>
                   <span>Express.js</span>

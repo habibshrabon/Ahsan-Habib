@@ -26,6 +26,13 @@ const Header = () => {
             <Nav.Link className="text-white" as={Link} to="/about">
               About
             </Nav.Link>
+            <Nav.Link
+              style={{ color: "#fff" }}
+              target="_blank"
+              href="https://drive.google.com/file/d/1cQEouWGF49vLawzIn0qkeI1RvM2jQ7Z0/view"
+            >
+              Resume
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
