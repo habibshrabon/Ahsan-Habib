@@ -19,20 +19,17 @@ const Contact = () => {
       .sendForm(
         "service_6eeefm2",
         "template_nnvk3xb",
-        e.target,
+        form.current,
         "user_sce2SIOPGHDjhtoK0stGX"
       )
       .then((res) => {
-        console.log(res);
+        console.log(res.text);
       })
       .catch((err) => console.log(err));
   }
   return (
     <section>
-      <Container
-        className="p-5 mb-5 text-center text-white"
-        style={{ background: "rgb(82, 102, 139)" }}
-      >
+      <Container className="p-5 mb-5 text-center text-white bg-color">
         <div>
           <h1>Contact Me</h1>
           <p className="pb-2">
@@ -46,7 +43,7 @@ const Contact = () => {
               <input
                 placeholder="Your Name Here"
                 type="text"
-                name="name"
+                name="user_name"
                 className="form-control"
               />
               <br />
@@ -82,7 +79,6 @@ const Contact = () => {
                 />
               </span>
               <span className="ps-4">
-                <p>01712390890</p>
                 <p>01712390890</p>
               </span>
             </div>
