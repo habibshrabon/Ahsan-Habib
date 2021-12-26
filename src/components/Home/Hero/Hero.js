@@ -3,8 +3,14 @@ import { Link } from "react-router-dom";
 import image from "../../../images/habib-bg.png";
 import TypeWriterEffect from "react-typewriter-effect";
 import "./Hero.css";
+import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
 
 const Hero = () => {
+  const history = useHistory();
+  const handleClick = () => {
+    console.log("click");
+    history.push("/about");
+  };
   return (
     <>
       <div className="container-md">
@@ -43,7 +49,12 @@ const Hero = () => {
                 Software/ IT agencies of Bangladesh and grow rapidly with
                 increasing responsibilities.
               </p>
-              <button as={Link} to="/about" className="me-3 btn-brand">
+              <button
+                onClick={handleClick}
+                as={Link}
+                to="/about"
+                className="me-3 btn-brand"
+              >
                 About Me
               </button>
               <button className="mt-3 button-style btn-brand">

@@ -20,6 +20,7 @@ const Project = () => {
   const handleSelect = (selectedIndex, e) => {
     setIndex(selectedIndex);
   };
+
   return (
     <div className="pb-5 my-5 projects">
       <div className="container-md">
@@ -28,7 +29,7 @@ const Project = () => {
           <div className="row">
             <div className="pb-4 col-lg-4 col-sm-6">
               <div
-                style={{ background: "#172A45", height: "550px" }}
+                style={{ background: "#0a192f", height: "550px" }}
                 className="p-3 text-justify rounded shadow img-animation"
               >
                 <Carousel activeIndex={index} onSelect={handleSelect}>
@@ -97,7 +98,7 @@ const Project = () => {
             </div>
             <div className="pb-4 col-lg-4 col-sm-6">
               <div
-                style={{ background: "#172A45", height: "550px" }}
+                style={{ background: "#0a192f", height: "550px" }}
                 className="p-3 text-justify rounded shadow cart-style img-animation"
               >
                 <Carousel activeIndex={index} onSelect={handleSelect}>
@@ -161,7 +162,7 @@ const Project = () => {
             </div>
             <div className="mb-4 col-lg-4 col-sm-6">
               <div
-                style={{ background: "#172A45", height: "550px" }}
+                style={{ background: "#0a192f", height: "550px" }}
                 className="p-3 text-justify rounded shadow img-animation"
               >
                 <Carousel activeIndex={index} onSelect={handleSelect}>

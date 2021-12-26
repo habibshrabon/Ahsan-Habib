@@ -7,6 +7,7 @@ import Project from "./components/Project/Project";
 import Contact from "./components/Contact/Contact";
 import Header from "./components/Home/Header/Header";
 import Footer from "./components/Footer/Footer";
+import Blog from "./components/Home/Bolg/Blog";
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
           </Route>
           <Route exact path="/project">
             <Project />
+          </Route>
+          <Route exact path="/blogs">
+            <Blog />
           </Route>
           <Route path="/about">
             <About />
