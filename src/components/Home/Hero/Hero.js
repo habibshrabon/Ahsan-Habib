@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import image from "../../../images/habib-bg.png";
+import image from "../../../images/my-bg2.png";
 import TypeWriterEffect from "react-typewriter-effect";
 import "./Hero.css";
 import { useHistory } from "react-router-dom/cjs/react-router-dom.min";

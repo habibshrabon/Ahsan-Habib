@@ -29,18 +29,17 @@ const Main = () => {
   };
 
   return (
-    <div className="pb-5 mt-5 projects">
+    <div className="pb-5 mt-5 projects project-bg">
       <div className="container-md">
         <div>
           <h2 className="pt-5 pb-3" data-aos="flip-left">
             Some Of <span style={{ color: "#ff4a57" }}>My Projects</span>
           </h2>
-
           <div className="row">
             <div className="pb-4 col-lg-4 col-sm-6">
               <div
-                style={{ background: "#0a192f", height: "550px" }}
-                className="p-3 text-justify rounded shadow img-animation"
+                // style={{ background: "#0a192f", height: "550px" }}
+                className="p-3 text-justify rounded shadow img-animation cart-style"
               >
                 <Carousel activeIndex={index} onSelect={handleSelect}>
                   <Carousel.Item>
@@ -108,7 +107,7 @@ const Main = () => {
             </div>
             <div className="pb-4 col-lg-4 col-sm-6">
               <div
-                style={{ background: "#0a192f", height: "550px" }}
+                // style={{ background: "#0a192f", height: "550px" }}
                 className="p-3 text-justify rounded shadow cart-style img-animation"
               >
                 <Carousel activeIndex={index} onSelect={handleSelect}>
@@ -172,8 +171,8 @@ const Main = () => {
             </div>
             <div className="mb-4 col-lg-4 col-sm-6">
               <div
-                style={{ background: "#0a192f", height: "550px" }}
-                className="p-3 text-justify rounded shadow img-animation"
+                // style={{ background: "#0a192f", height: "550px" }}
+                className="p-3 text-justify rounded shadow img-animation cart-style"
               >
                 <Carousel activeIndex={index} onSelect={handleSelect}>
                   <Carousel.Item>

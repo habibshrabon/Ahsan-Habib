@@ -29,14 +29,14 @@ const Project = () => {
           <div className="row">
             <div className="pb-4 col-lg-4 col-sm-6">
               <div
-                style={{ background: "#0a192f", height: "550px" }}
-                className="p-3 text-justify rounded shadow img-animation"
+                // style={{ background: "#0a192f", height: "550px" }}
+                className="p-3 text-justify rounded shadow img-animation cart-style"
               >
                 <Carousel activeIndex={index} onSelect={handleSelect}>
-                  <Carousel.Item>
+                  <Carousel.Item className="">
                     <img
                       style={{ height: "200px" }}
-                      className="d-block w-100"
+                      className="d-block w-100 image-style"
                       src={tour1}
                       alt="First slide"
                     />
@@ -98,7 +98,7 @@ const Project = () => {
             </div>
             <div className="pb-4 col-lg-4 col-sm-6">
               <div
-                style={{ background: "#0a192f", height: "550px" }}
+                // style={{ background: "#0a192f", height: "550px" }}
                 className="p-3 text-justify rounded shadow cart-style img-animation"
               >
                 <Carousel activeIndex={index} onSelect={handleSelect}>
@@ -162,8 +162,8 @@ const Project = () => {
             </div>
             <div className="mb-4 col-lg-4 col-sm-6">
               <div
-                style={{ background: "#0a192f", height: "550px" }}
-                className="p-3 text-justify rounded shadow img-animation"
+                // style={{ background: "#0a192f", height: "550px" }}
+                className="p-3 text-justify rounded shadow img-animation cart-style"
               >
                 <Carousel activeIndex={index} onSelect={handleSelect}>
                   <Carousel.Item>

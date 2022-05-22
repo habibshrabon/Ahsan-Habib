@@ -72,7 +72,6 @@ const About = () => {
               <li>
                 <a
                   target="_blank"
-                  target="_blank"
                   href="https://www.facebook.com/habib.sharabon"
                   rel="noreferrer"
                 >

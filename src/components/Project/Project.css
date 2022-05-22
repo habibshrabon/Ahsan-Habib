@@ -1,6 +1,23 @@
 .cart-style {
-  background-color: #0a192f;
-  height: 500px;
+  /* background-color: #0a192f; */
+  background-color: #2b2b35;
+  background-color: black;
+  height: 550px;
+}
+.image-style {
+  width: 100%;
+  height: 320px;
+}
+.image-style:hover {
+  transform: scale(1.1);
+  transition: transform 1s;
+  padding: 10px;
+}
+
+.image-style:hover {
+  box-shadow: 0px 0px 5px 5px gray;
+  background-color: rgb(34, 36, 37);
+  color: ivory;
 }
 
 @media only screen and (max-width: 740px) {
