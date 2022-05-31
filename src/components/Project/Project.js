@@ -25,7 +25,7 @@ const Project = () => {
     <div className="pb-5 my-5 projects">
       <div className="container-md">
         <div>
-          <h2 className="pb-3">Some of my projects</h2>
+          <h2 className="pb-3 text-white">Some of my projects</h2>
           <div className="row">
             <div className="pb-4 col-lg-4 col-sm-6">
               <div

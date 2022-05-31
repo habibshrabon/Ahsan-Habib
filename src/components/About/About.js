@@ -13,7 +13,7 @@ import {
 
 const About = () => {
   return (
-    <div className="container mt-5" id="about">
+    <div className="container mt-5 text-white" id="about">
       <div className="row d-flex align-items-center">
         <div
           className="col-md-6 col-sm-12 col-xs-12 text-start about-content"

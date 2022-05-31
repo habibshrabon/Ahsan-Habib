@@ -124,7 +124,7 @@ const Contact = () => {
           <div className="col-lg-12">
             <div className="">
               {/* <h2 className="title text-dark mb-4">Contact With Me</h2> */}
-              <h2 className="pt-5 pb-3" data-aos="flip-left">
+              <h2 className="pt-5 pb-3 text-white" data-aos="flip-left">
                 Contact <span style={{ color: "#ff4a57" }}>With Me</span>
               </h2>
             </div>
@@ -132,7 +132,7 @@ const Contact = () => {
         </div>
         <div className="row">
           <div className="col-lg-5">
-            <div className=" shadow p-4 rounded ">
+            <div className="shadow p-4 rounded bg">
               <div className="image-fluid">
                 <img
                   className="w-100"
@@ -262,7 +262,7 @@ const Contact = () => {
             </div>
           </div>
           <div className="col-lg-7 contact-input">
-            <div className=" p-4 rounded-lg shadow-lg">
+            <div className=" p-4 rounded-lg shadow-lg  bg">
               <div className="introduce">
                 <form
                   ref={form}

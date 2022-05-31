@@ -32,7 +32,7 @@ const Main = () => {
     <div className="pb-5 mt-5 projects project-bg">
       <div className="container-md">
         <div>
-          <h2 className="pt-5 pb-3" data-aos="flip-left">
+          <h2 className="pt-5 pb-3 text-white" data-aos="flip-left">
             Some Of <span style={{ color: "#ff4a57" }}>My Projects</span>
           </h2>
           <div className="row">
