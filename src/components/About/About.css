@@ -3,6 +3,10 @@
   width: 70%;
   height: auto;
 }
+#about img {
+  border-radius: 20px;
+  border: 2px solid #ff4a57;
+}
 
 .skills span {
   background: #394b66;
@@ -15,10 +19,6 @@
   display: inline-block;
 }
 
-#about img {
-  border-radius: 20px;
-  border: 2px solid #ff4a57;
-}
 .social-link {
   margin-top: 25px;
   padding: 0 !important;
